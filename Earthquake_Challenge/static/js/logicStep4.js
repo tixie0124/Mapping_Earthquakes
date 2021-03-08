@@ -61,10 +61,9 @@ for (var i = 0; i < magnitudes.length; i++) {
 }
 return div;
 
-};
 
 legend.addTo(map);
-
+};
 
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
